@@ -1,0 +1,76 @@
+.gf{
+    color: rgb(5, 112, 243);
+}
+.ht_them{
+    color: rgb(39, 118, 237);
+     height: 10%;
+     width: 50%;
+     border: none;
+     background-color: white;
+ }
+ .thu_bot{
+     color: rgb(39, 118, 237);
+     height: 10%;
+     width: 35%;
+     border: none;
+     background-color: white;
+ }
+ .ht_them:hover{
+    text-decoration: 1.5px underline solid rgb(39, 118, 237) ;
+    cursor: pointer;
+ 
+ }
+ .thu_bot:hover{
+   text-decoration: 1.5px underline solid rgb(39, 118, 237) ;
+    cursor: pointer;
+ 
+ }
+ .tr:hover .ht_them{
+   background-color: #ECECEC;
+ }
+ .tr:hover .thu_bot{
+   background-color: #ECECEC;
+ }
+ .kyw{
+   width: 150px;
+   height: 30px;
+   border: 1px solid black;
+   border-radius: 5px;
+   margin-right: 5px;
+ }
+ .kyw:hover{
+   border: 2px solid red;
+ }
+ .iddm:hover{
+   border: 2px solid rgb(5, 112, 243);
+ }
+ /* .iddm:hover{
+   border: 2px solid green;
+ } */
+ .iddm{
+   width: 150px;
+   height: 30px;
+   border: 1px solid black;
+   border-radius: 5px;
+   margin-right: 10px;
+ }
+ .btn_submit{
+   border: 1px solid palevioletred;
+   background-color: palevioletred;
+   border-radius: 10px;
+   width: 120px;
+   margin-left: 36%;
+   height: 35px;
+   color: white;
+   font-weight: 500;
+
+ }
+ .fa_solid{
+   background-color: red;
+   color: white;
+   border: 1px solid red;
+   border-radius: 5px;
+   margin-top: 5px;
+   padding: 3px 8px;
+   background-color: rgb(183, 183, 183);
+ }

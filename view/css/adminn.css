@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+body{
+    background-color: white;
+}
+/* header{
+    background-color:#2A9D8F;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+} */
+/* .text_header p{
+    color: white;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 700;
+} */
+.menu{
+    background-color: #1e2f40;
+    height: 100%;
+    /* margin-left: 55px; */
+    padding: 10px;
+}
+.menu li{
+    display: block;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(214, 214, 214);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu li a:hover{
+   color: white;
+   text-decoration: underline;
+    
+}
+.add_text{
+   
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+   
+}
+.add_text p{
+     font-size: 25px;
+    margin-top: 50px;
+    font-weight: 500; 
+}
+.add_input input{
+    width: 100%;
+    margin-bottom: 15px;
+    height: 25px;
+   
+}
+table{
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px;
+    border: 1px solid gray;
+  
+}
+td{
+    padding: 10px;
+    border: 1px solid gray;
+    
+}
+th{
+    padding:10;
+}
+td input{
+    margin-right: 10px;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: 20% 75%;
+    gap: 32px;
+}
+.add{
+    width: 100%;
+}
+.add_click input{
+   padding: 5px;
+   border-radius: 5px;
+   margin-top: 20px;
+   background-color: #e93c36;
+   border: 1px solid #e93c36;
+   color: white;
+   padding: 8px;
+}
+.add_click input:hover{
+    background-color: #d4251f;
+}
+.click_sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add_submit input{
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #28B67E;
+    color: white;
+    border: 1px solid #28B67E;
+    width: 100px;
+ }
+ .add_submit input:hover{
+    background-color: #22a772;
+ }
+.add_table form input{
+    height: 30px;
+    margin-right: 10px;
+}
+#go{
+    background-color: #28B67E;
+    color: white;
+    border: 1px solid #28B67E;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#go:hover{
+    background-color: #22a772;
+}
+table tr:nth-child(1){
+    height: 60px;
+    color: white;
+   background-color:#3E555E;
+}
+#xoa{
+    padding: 6px;
+    width: 70%;
+    margin-left: 15%;
+    background-color: #e93c36;
+    border: 1px solid #e93c36;
+    border-radius: 5px;
+    color: white;
+}
+#xoa:hover{
+    background-color: #d4251f;
+
+}
+#sua{
+    padding: 6px;
+    width: 35%;
+    margin-left: 10%;
+    background-color: #FCAF38;
+    border: 1px solid #FCAF38;
+    border-radius: 5px;
+    color: white;
+}
+#sua:hover{
+    background-color: #e49723;
+}
+#xoabl{
+    padding: 6px;
+    width: 35%;
+    background-color: #e93c36;
+    border: 1px solid #e93c36;
+    border-radius: 5px;
+    color: white;
+}
+#xoabl:hover{
+    background-color: #d4251f;
+}
+#suabl{
+    padding: 6px;
+    width: 50%;
+    margin-left: 22%;
+    background-color: #FCAF38;
+    border: 1px solid #FCAF38;
+    border-radius: 5px;
+    color: white;
+}
+#suabl:hover{
+    background-color: #e49723;
+}
+#xoahh{
+    padding: 6px;
+    width: 50%;
+    margin-left: 22%;
+    background-color: #e93c36;
+    border: 1px solid #e93c36;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+}
+#xoahh:hover{
+    background-color: #d4251f;
+}
+.title{
+    background-color:#E2E8F6 ;
+}
+.add_input input{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+
+}
+#select{
+    width: 100px;
+    font-size: 15px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#mota{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#radio{
+    margin-left: 20px;
+}
+.add{
+    padding-bottom: 50px;
+}
+.thu_bot{
+    display: none;
+   
+}
